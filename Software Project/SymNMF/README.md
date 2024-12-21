@@ -22,7 +22,7 @@ Each cluster $k$ is represented by its centroid, which is the mean $\mu_k\in\mat
 2. Repeat:
    * Assign every $x_i$ to the closest cluster $k$: $argmin_k d(x_i,\mu_k),\forall k. 1\leq k\leq K$
    * Update the centroids: $\mu_k=\frac{1}{|k|}\sum_{x_i\in k} x_i$
-3. Until convergence: $(\delta\mu_k<\varepsilon)\, OR\, (iteration\_number=iter)$
+3. Until convergence: $(\delta\mu_k<\varepsilon)\ OR\ (iteration\_number=iter)$
 
 Where $d(p,q)$ is the Euclidean distance, and $\delta\mu_k$ is the Euclidean distance between the updated centroid to the previous one (this is checked for every centroid).
 

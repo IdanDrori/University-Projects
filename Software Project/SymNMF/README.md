@@ -26,23 +26,6 @@ Each cluster $k$ is represented by its centroid, which is the mean $\mu_k\in\mat
 
 Where $d(p,q)$ is the Euclidean distance, and $\delta\mu_k$ is the Euclidean distance between the updated centroid to the previous one (this is checked for every centroid).
 
-## Installation
-
-To compile and set up the project:
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/symnmf-clustering.git
-    cd symnmf-clustering
-    ```
-2. Build the C extension module:
-    ```bash
-    python3 setup.py build_ext --inplace
-    ```
-3. Compile the standalone C program:
-    ```bash
-    make
-    ```
-
 ## Usage
 
 ### Running through Python

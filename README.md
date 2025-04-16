@@ -8,4 +8,4 @@ Currently contains the following projects:
 | Data Structures                       | AVL Tree and Binomial Heap                                              | Python, Java |
 | Intro to Machine Learning             | Union of intervals, PCA, k-NearestNeighbors, and various visualizations | Python       |
 | Software Project                      | K-Means and Symmetric Non-negative Matrix Factorization                 | C, Python    |
-| Graphics, Image Processing and Vision | Foreground segmentation using GrabCut, and Poisson Blending             | Python       |
+| Graphics, Image Processing and Vision | Foreground segmentation using GrabCut and Poisson Blending, and a Ray Tracer | Python       |
